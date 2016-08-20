@@ -1,0 +1,23 @@
+---
+layout: default
+---
+
+<section class="post">
+    <header class="post-header">
+        <img class="post-avatar" alt="Stuart Watt&#x27;s avatar" height="48" width="48" src="/public/img/stuart_avatar.jpg">
+
+        <h2 class="post-title">{{ page.title }}</h2>
+
+        <p class="post-meta">
+            By <span class="post-author">{{ page.author }}</span>
+            on {{ page.date | date_to_string }}
+        </p>
+    </header>
+
+    <div class="post-description">
+        <p>
+            {{content}}
+        </p>
+    </div>
+
+</section>

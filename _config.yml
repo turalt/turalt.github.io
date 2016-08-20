@@ -13,4 +13,8 @@ name: 'turalt blog'
 tagline: 'the technology of empathy'
 
 # Build settings
-markdown: kramdown
+markdown: redcarpet
+highlighter: true
+
+paginate: 5
+permalink: pretty
