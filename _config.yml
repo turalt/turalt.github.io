@@ -18,3 +18,8 @@ highlighter: true
 
 paginate: 5
 permalink: pretty
+
+sass:
+  style: compressed
+
+gems: [jekyll-paginate]
