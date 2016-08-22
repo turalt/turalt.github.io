@@ -16,7 +16,6 @@ tagline: 'the technology of empathy'
 markdown: redcarpet
 highlighter: true
 
-paginate: 5
 permalink: pretty
 
 sass:
