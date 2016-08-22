@@ -1,5 +1,5 @@
 # Site settings
-title: 'turalt blog'
+title: 'turalt'
 email: stuart.watt@turalt.com
 description: > # this means to ignore newlines until "baseurl:"
   This describes the local deployment of cBioPortal at UHN. That includes
@@ -9,7 +9,7 @@ baseurl: "" # the subpath of your site, e.g. /blog/
 url: "http://turalt.github.io" # the base hostname & protocol for your site
 twitter_username: morungos
 github_username:  morungos
-name: 'turalt blog'
+name: 'turalt'
 tagline: 'the technology of empathy'
 
 # Build settings

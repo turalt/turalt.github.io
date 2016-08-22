@@ -49,18 +49,36 @@ Theme Styles
 body {
   box-sizing: border-box;
   color:#373737;
-  background: #831a15;
+  background-color: #f5f5f5;
   font-size: 16px;
-  font-family: 'Corbel', Calibri, Helvetica, Arial, sans-serif;
+  font-family: 'Avenir Next', 'Corbel', Calibri, Helvetica, Arial, sans-serif;
   line-height: 1.5;
   -webkit-font-smoothing: antialiased;
+}
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+body {
+  /* Margin bottom by footer height */
+  margin-bottom: 100px;
+}
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  /* Set the fixed height of the footer here */
+  height: 100px;
+  background-color: #f5f5f5;
+  font-size: 80%;
 }
 
 h1, h2, h3, h4, h5, h6 {
   margin: 10px 0;
   font-weight: 700;
-  color:#222222;
-  font-family: 'Corbel', 'Calibri', Helvetica, Arial, sans-serif;
+  color:#AA0000;
+  font-family: 'Avenir Next', 'Corbel', 'Calibri', Helvetica, Arial, sans-serif;
   letter-spacing: -1px;
 }
 
@@ -95,13 +113,9 @@ p {
   margin: 10px 0 15px 0;
 }
 
-footer p {
-  color: #f2f2f2;
-}
-
 a {
   text-decoration: none;
-  color: #007edf;
+  color: #AA0000;
   text-shadow: none;
 
   transition: color 0.5s ease;
@@ -117,6 +131,10 @@ a {
 }
 
 a:hover, a:focus {text-decoration: underline;}
+
+footer p {
+  color: #f2f2f2;
+}
 
 footer a {
   color: #F2F2F2;
@@ -258,72 +276,10 @@ form {
 Full-Width Styles
 *******************************************************************************/
 
-.outer {
-  width: 100%;
-}
-
 .inner {
-  position: relative;
   max-width: 640px;
   padding: 20px 10px;
   margin: 0 auto;
-}
-
-#breadcrumbs_banner {
-  display: block;
-  position: absolute;
-  top:0;
-  left: 0px;
-  z-index: 10;
-  font-size: 20px;
-  padding: 5px 50px 10px 10px;
-}
-
-#breadcrumbs_banner a {
-  color: #AAA;
-}
-
-#breadcrumbs_banner a:hover{
-    text-decoration: none;
-}
-
-#header_wrap {
-  background: #212121;
-  background: -moz-linear-gradient(top, #AF231C, #831a15);
-  background: -webkit-linear-gradient(top, #AF231C, #831a15);
-  background: -ms-linear-gradient(top, #AF231C, #831a15);
-  background: -o-linear-gradient(top, #AF231C, #831a15);
-  background: linear-gradient(top, #AF231C, #831a15);
-}
-
-#header_wrap .inner {
-  padding: 50px 10px 30px 10px;
-}
-
-#project_title {
-  margin: 0;
-  color: #fff;
-  font-size: 42px;
-  font-weight: 700;
-  text-shadow: #111 0px 0px 10px;
-}
-
-#project_tagline {
-  color: #fff;
-  font-size: 24px;
-  font-weight: 300;
-  background: none;
-  text-shadow: #111 0px 0px 10px;
-}
-
-#downloads {
-  position: absolute;
-  width: 210px;
-  z-index: 10;
-  bottom: -40px;
-  right: 0;
-  height: 70px;
-  background: url('../images/icon_download.png') no-repeat 0% 90%;
 }
 
 .zip_download_link {
@@ -353,20 +309,6 @@ Full-Width Styles
 
 .tar_download_link:hover {
   background: url(../images/sprite_download.png) no-repeat top right;
-}
-
-#main_content_wrap {
-  background: #f2f2f2;
-  border-top: 1px solid #111;
-  border-bottom: 1px solid #111;
-}
-
-#main_content {
-  padding-top: 40px;
-}
-
-#footer_wrap {
-  background: #831a15;
 }
 
 /*******************************************************************************
